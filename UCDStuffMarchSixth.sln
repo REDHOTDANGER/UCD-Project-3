@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDStuffMarchSixth", "UCDStuffMarchSixth.csproj", "{A030EF39-C569-29CE-2397-3FB68F451D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UCDStuffMarchSixth.Editor", "UCDStuffMarchSixth.Editor.csproj", "{52D469D5-4B5F-7090-B7B7-A83438135564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A030EF39-C569-29CE-2397-3FB68F451D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A030EF39-C569-29CE-2397-3FB68F451D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A030EF39-C569-29CE-2397-3FB68F451D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A030EF39-C569-29CE-2397-3FB68F451D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D469D5-4B5F-7090-B7B7-A83438135564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D469D5-4B5F-7090-B7B7-A83438135564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D469D5-4B5F-7090-B7B7-A83438135564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D469D5-4B5F-7090-B7B7-A83438135564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
