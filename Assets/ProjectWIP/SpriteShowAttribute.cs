@@ -31,12 +31,14 @@ public class SpriteShowDrawer : PropertyDrawer
 
         Rect drawPosition = position;
         drawPosition.height = drawPosition.height / 3;
+       
         EditorGUI.PropertyField(drawPosition, property, label, true);
-
-        if(mySprite != null)
+        drawPosition.y += drawPosition.height;
+        if (mySprite != null)
         {
             Texture2D aText = AssetPreview.GetAssetPreview(mySprite);
-            GUILayout.Label(aText);
+            GUI.Label(drawPosition, aText);
+            
         }
 
         //base.OnGUI(position, property, label);

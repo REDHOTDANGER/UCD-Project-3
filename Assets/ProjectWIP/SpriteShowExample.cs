@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpriteShowExample : MonoBehaviour
 {
-    //[SpriteShow]
+    [SpriteShow]
     public Sprite testSprite;
 
 	// Use this for initialization

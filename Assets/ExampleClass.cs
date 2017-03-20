@@ -7,8 +7,7 @@ public class ExampleClass : MonoBehaviour
     public float myFloat;
     [ColorLine(0f, 255f, 0f)]
     public int myInt;
-
-    [ColorLine(255f, 0f, 0f)]
+    [ColorLine(0f, 0f, 255f)]
 
     [CustomObject]
     public GameObject myObject;
